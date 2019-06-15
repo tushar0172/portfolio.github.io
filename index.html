@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+<link href="css/aos.css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" href="css/custom.min43a0.css?v3" media="screen,projection" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="theme-color" content="#1E88E5" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<title>Nazmul's Portfolio</title>
+<meta name="description" content="I'm a software developer from Bangladesh that loves to code and try new stuff!" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123834176-1" type="text/javascript"></script>
+<script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-123834176-1");
+    </script>
+<script async src="js/nha.js" type="text/javascript"></script>
+</head>
+<body>
+<img id="background-image-loader" srcset="
+    images/parallax/parallax-720p.jpg  1280w,
+    images/parallax/parallax-1080p.jpg 1920w,
+    images/parallax/parallax-1440p.jpg 2560w,
+    images/parallax/parallax-2160p.jpg 3480w
+  " sizes="100vw" style="display:none" />
+<script type="text/javascript">
+  var element = document.querySelector("#background-image-loader");
+  var backgroundSrc = "";
+  function onBackgroundLoaded(el) {
+    let src = typeof el.currentSrc !== "undefined" ? el.currentSrc : el.src;
+    if (src !== backgroundSrc) {
+      backgroundSrc = src;
+      document.querySelector("body").style.setProperty("--background-img", 'url("' + src + '")');
+    }
+  }
+  element.addEventListener("load", () => {
+    onBackgroundLoaded(element);
+  });
+  if (element.complete) onBackgroundLoaded(element);
+</script>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/aos.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/custom0af4.js?v6"></script>
+<header>
+<span id="top"></span>
+<div class="navbar-fixed">
+<nav>
+<div class="container">
+<div class="nav-wrapper">
+<a href="#top" class="brand-logo" id="navbar-title">Nazmul</a>
+<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a
+              >
+<ul class="right hide-on-med-and-down">
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#work">Experience</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#contact">Contact</a></li>
+
+
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<ul class="side-nav" id="mobile-nav">
+<li><a href="#about">About me</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#work">Work Experience</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#contact">Contact me</a></li>
+
+
+</ul>
+</header>
+<main>
+<div id="info">
+<div class="container">
+<img src="images/profile.jpg" alt="Profile Picture" class="circle profile-pic" draggable="false" />
+<h1 class="header center white-text">Md Nazmul Islam</h1>
+<div class="row center">
+<h5 class="header col s12 light white-text">Unity3D Developer</h5>
+</div>
+<div class="row center">
+<a class="btn btn-outlined waves-effect waves-light" href="#portfolio">Take a look at my work</a
+            >
+<a class="btn btn-outlined waves-effect waves-light" href="#contact">Contact me</a>
+</div>
+</div>
+</div>
+<a class="anchor" id="about"></a>
+<div class="z-depth-5 content scrollspy" id="__about">
+<div class="container row">
+<br />
+<div class="col s12">
+<p class="flow-text"><strong>Hi There!</strong></p>
+<p class="flow-text">
+My name is <b>Md Nazmul Islam</b> and I'd like to welcome you to my portfolio. I am a <b>Software Developer</b> from Dhaka, Bangladesh, specialized in <b>Unity3D</b>. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time. 
+                  I have done work in software development, mobile app creation, front-end/back-end web, and video game development. If you are interested, you can view some of my favorite projects in my portfolio down below.
+                  If you would like to build something together or simply want to have chat? Reach out to me on social media or send me an email.<br />
+Feel free to <a href="#contact">get in touch</a> or take a look at my
+<a href="#portfolio">past work</a> below.
+</p>
+</div>
+
+</div>
+</div>
+<a class="anchor" id="portfolio"></a>
+<div class="banner main-banner white-text center">
+<br /><br />
+<div class="section">
+<div class="container">
+<h4 class="header col s12 light header-text">Portfolio</h4>
+</div>
+</div>
+<br /><br />
+</div>
+<div class="z-depth-5 content scrollspy" id="__portfolio">
+<div class="container">
+<br />
+
+<br /><br /><br />
+<div class="portfolio-timeline">
+<div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+<h5>Bino (AR Application)</h5>
+<a><img src="gif/bino.gif" alt="Bino" width="100%"/></a>
+                  <p>"Bino" is an extraordinary approach to modernize the primary education system through <b>Augmented reality</b>. Children will enjoy learning Alphabet with exciting 3D animated figures with this Bino Apps. They can play in their imaginary world. I'm Co-Developer of this Application.</p>
+                  <ul class="actions special">
+                    <li><a href="https://play.google.com/store/apps/details?id=com.microtech.neelimarbioscope&hl=en" class="button">Download APK</a></li>
+                  </ul>
+</div>
+</div>
+<div class="entry" data-aos="fade">
+<div class="content" data-aos="fade-left">
+<h5>Man vs Zombies (VR Game)</h5>
+<a><img src="gif/zombie.gif" alt="Man vs Zombies" width="100%"/></a>
+                  <p><b>Virtual reality</b> Game is completely new in bangladesh, Microtech interactive brings a brand new VR game called <b>Man Vs Zombies</b> where you can jump into the city where zombie is cralling, all you have to do is killiing them and sirvive. Our VR technology game will give you the real life and experience of this zombie game. I'm Leading Developer of this Game.</p>
+</div>
+</div>
+<div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+ <h5>3D Space Race (Android Game)</h5>
+<a><img src="gif/space.gif" alt="3D Space Race" width="100%"/></a>
+                  <p>3D Space Race is 3D racing game made with Unity3D where the player needs to move the Spaceship. There are Two types of Control, one is Tilt and another is Button. This was my First game.</p>
+                  <ul class="actions special">
+                    <li><a href="https://play.google.com/store/apps/details?id=com.MicrotechInteractive.spaceRace&hl=en" class="button">Download APK</a></li>
+                  </ul>
+</div>
+</div>
+<div class="entry" data-aos="fade">
+<div class="content" data-aos="fade-left">
+<h5>Crazy Cricket (Android Game)</h5>
+<a><img src="gif/cricket.gif" alt="Crazy Cricket" width="100%"/></a>
+                  <p>Cricket lover can now have awesome 2D mobile cricket game at the palm of their hands! You can shot as making a high score run.This is a game built for you the cricket fan! You can make a high score run and Challenge or Share with your Friends. Have Fun! I'm Co-Developer of this Application. </p>
+                  <ul class="actions special">
+                    <li><a href="https://play.google.com/store/apps/details?id=com.microtechinteractive.crickethit6&hl=en" class="button">Download APK</a></li>
+                  </ul>
+</div>
+</div>
+<div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+<h5>Rickshawala (Android Game)</h5>
+<a><img src="gif/ricksha.gif" alt="Rickshawala" width="100%"/></a>
+                  <p>Rickshawala is 3D racing game made with Unity3D where the player needs to move the Rickshawa. Player can buy many types of Rickshawa. I'm Co-Developer of this Application.</p>
+                  <ul class="actions special">
+                    <li><a href="https://play.google.com/store/apps/details?id=com.microtechinteractive.rickshawala&hl=en" class="button">Download APK</a></li>
+                  </ul>
+</div>
+</div>
+<div class="entry" data-aos="fade">
+<div class="content" data-aos="fade-left">
+<h5>Film Festival Event (Website)</h5>
+<a><img src="gif/film.gif" alt="Liberation war museum: Film Festival" width="100%"/></a>
+                  <p>Liberation war museum: Film Festival Event's registration website.</p>
+                  <ul class="actions special">
+                    <li><a href="http://filmfestival.lwmbd.org/index.php" class="button">VISIT SITE</a></li>
+                  </ul>
+</div>
+</div>
+<div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+<h5>Bino Stock (Website)</h5>
+<a><img src="gif/stock.gif" alt="Bino Stock" width="100%"/></a>                 
+                  <p>Bino Stock is an inventory management website.</p>
+</div>
+</div>
+<div class="entry" data-aos="fade">
+<div class="content" data-aos="fade-left">
+<h5>Wireless Bot (Robotics Projects)</h5>
+<a><img src="gif/bot.gif" alt="Wireless controll Bot" width="100%"/></a>
+                  <p>This Bot was made with <b>Raspberry pi</b>, mainly this bot made for playing with ball which controlled over wifi. This was my project which I made for my university's Inter Department competition.</p>
+</div>
+</div>
+ <div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+<h5>Line Follower Robot (Robotics Projects)</h5>
+<a><img src="gif/line.gif" alt="Line Follower Robot" width="100%"/></a>                 
+                  <p>This project was made by <b>Arduino</b>. This robot follow on black line.</p>
+</div>
+</div>
+
+</div>
+
+<br />
+<br />
+</div>
+</div>
+<a class="anchor" id="work"></a>
+<div class="banner main-banner white-text center">
+<br /><br />
+<div class="section">
+<div class="container">
+<h4 class="header col s12 light header-text">Work Experience</h4>
+</div>
+</div>
+<br /><br />
+</div>
+<div class="z-depth-5 content scrollspy" id="__work">
+<div class="container row">
+<br />
+<br /><br /><br />
+<div class="portfolio-timeline">
+<div class="entry timeline-left" data-aos="fade">
+<div class="content" data-aos="fade-right">
+<h5>Microtech Interactive (2017-Current)</h5>
+<p class="flow-text">I'm Software Developer at Microtech Interactive. Here I Develop Apps With Unity3d Platform using C# and Java Script.</p> 
+<p class="flow-text">You can <a href="mailto:tushar@microtechbd.com?Subject=Hello%20There">email</a> us for more information about us or even for collaborations!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class="anchor" id="achievements"></a>
+<div class="banner main-banner white-text center">
+<br /><br />
+<div class="section">
+<div class="container">
+<h4 class="header col s12 light header-text">Achievements</h4>
+</div>
+</div>
+<br /><br />
+</div>
+<div class="z-depth-5 content scrollspy" id="__achievements">
+<div class="container row">
+<br />
+<br /><br /><br />
+<div class="col s12">
+  <img src="images/awards.jpg" width="100%">
+<p class="flow-text">
+Robotics competition Runners up in Stamford University Bangladesh, CSE Day 2015
+</p>
+</div>
+</div>
+</div>
+<a class="anchor" id="contact"></a>
+<div class="banner main-banner white-text center">
+<br /><br />
+<div class="section">
+<div class="container">
+<h4 class="header col s12 light header-text">Contact me</h4>
+</div>
+</div>
+<br /><br />
+</div>
+<div class="z-depth-5 content scrollspy" id="__contact">
+<div class="container">
+<p class="flow-text">Feel free to contact me using any of the platforms below</p>
+<br />
+<div class="contacts-container">
+<a href="mailto:tushar0172@gmail.com?Subject=Hello%20There" class="contact-item">
+<img src="images/icons/email.svg" alt="E-mail" />
+<span class="contact-title">E-mail</span>
+<span class="contact-value"><span>tushar0172@gmail.com</span></span>
+</a>
+<a href="https://fb.com/tsr.dhk" target="_blank" class="contact-item">
+<img src="images/icons/facebook.svg" alt="Facebook" />
+<span class="contact-title">Facebook</span>
+<span class="contact-value">Md Tushar</span>
+</a>
+<a href="https://twitter.com/tsr_dhk" target="_blank" class="contact-item">
+<img src="images/icons/twitter.svg" alt="Twitter" />
+<span class="contact-title">Twitter</span>
+<span class="contact-value">@TushaR</span>
+</a>
+</div>
+</div>
+</div>
+</main>
+<footer class="page-footer" style="box-shadow: 0 0 25px rgba(0,0,0,0.32);">
+<div class="footer-copyright">
+<div class="container center">
+&copy; 2017-2019 Md Nazmul Islam
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/rocket-loader.min.js" data-cf-settings="90ee82fd5226ceadd25d4ae6-|49" defer=""></script></body>
+
+</html>
