@@ -6,10 +6,6 @@
             height: 100%;
             z-index: 9999;
             background-color: #ffffff;
+            background: url('loader.gif') 
+              50% 50% no-repeat #ffffff;
         }
-        .loader img{
-            position: relative;
-            left: 40%;
-            top: 40%;
-        }
-
