@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a4447240.chunk.css",
-    "main.js": "/portfolio/static/js/main.55d3a6be.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.55d3a6be.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7705118c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7705118c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.36ba0169.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.36ba0169.js.map",
     "static/css/2.e43d3303.chunk.css": "/portfolio/static/css/2.e43d3303.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/awards.591a93ec.jpg": "/portfolio/static/media/awards.591a93ec.jpg",
     "static/media/email.89d4a70e.svg": "/portfolio/static/media/email.89d4a70e.svg",
     "static/media/github.e2f07326.svg": "/portfolio/static/media/github.e2f07326.svg",
+    "static/media/google-play-badge.d25ccf43.png": "/portfolio/static/media/google-play-badge.d25ccf43.png",
     "static/media/linkedin.c39df031.svg": "/portfolio/static/media/linkedin.c39df031.svg",
     "static/media/parallax-1080p.728b4235.jpg": "/portfolio/static/media/parallax-1080p.728b4235.jpg",
     "static/media/parallax-1440p.e51e10fb.jpg": "/portfolio/static/media/parallax-1440p.e51e10fb.jpg",
@@ -31,6 +32,6 @@
     "static/css/2.e43d3303.chunk.css",
     "static/js/2.037755a3.chunk.js",
     "static/css/main.a4447240.chunk.css",
-    "static/js/main.55d3a6be.chunk.js"
+    "static/js/main.7705118c.chunk.js"
   ]
 }
